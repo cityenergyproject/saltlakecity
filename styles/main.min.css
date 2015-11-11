@@ -148,7 +148,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
-  color: #e66346;
+  color: #145887;
   font-family: "Ubuntu", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.5; }
@@ -191,7 +191,7 @@ picture {
 
 input[type="search"], button, input[type="button"], input[type="reset"], input[type="submit"], .irs-from, .irs-to, .irs-single {
   -webkit-font-smoothing: antialiased;
-  background-color: #e66346;
+  background-color: #145887;
   border: 1px solid white;
   border-radius: 1em;
   color: #fff;
@@ -201,7 +201,7 @@ input[type="search"], button, input[type="button"], input[type="reset"], input[t
 
 button, input[type="button"], input[type="reset"], input[type="submit"], .irs-from, .irs-to, .irs-single {
   background-color: white;
-  color: #e66346; }
+  color: #145887; }
 
 .map-category-control label, #map-controls .more-info, #map-controls h2, #map-controls .map-control, .building-report label, .year-control label {
   -webkit-touch-callout: none;
@@ -629,7 +629,7 @@ header {
     text-transform: uppercase; }
 
 .toolbar {
-  background-color: #e66346;
+  background-color: #145887;
   color: white; }
 
 .search-wrapper {
@@ -683,7 +683,7 @@ header {
     width: 1em; }
 
 .map-category-control .category-list-toggle {
-  background-color: #e66346;
+  background-color: #145887;
   border: 1px solid white;
   border-radius: 1em;
   color: #fff;
@@ -693,10 +693,10 @@ header {
 
 .map-category-control input[type="checkbox"]:checked + .category-list-toggle {
   background-color: white;
-  color: #e66346; }
+  color: #145887; }
 
 .map-category-control .categories {
-  color: #e66346;
+  color: #145887;
   background-color: rgba(209, 209, 208, 0.9); }
 
 .map-category-control li {
@@ -707,10 +707,10 @@ header {
   display: none; }
 
 .map-category-control input[type=checkbox]:checked + label .check {
-  background: #e66346; }
+  background: #145887; }
 
 .map-category-control .check {
-  box-shadow: inset 0 0 0 1px #e66346; }
+  box-shadow: inset 0 0 0 1px #145887; }
 
 .map-category-control label {
   cursor: pointer;
@@ -784,9 +784,9 @@ header {
 #map-controls {
   background-color: #f2f2f2; }
   #map-controls .category, #map-controls input:checked + label h2 {
-    box-shadow: inset 0 -1px #e66346; }
+    box-shadow: inset 0 -1px #145887; }
   #map-controls .current.category {
-    box-shadow: inset 1em -1px #e66346; }
+    box-shadow: inset 1em -1px #145887; }
   #map-controls h2:after, #map-controls label:after {
     content: "\A";
     display: block;
@@ -801,7 +801,7 @@ header {
     bottom: -9px;
     border-top-color: #f2f2f2; }
   #map-controls h2:after {
-    border-top-color: #e66346; }
+    border-top-color: #145887; }
   #map-controls h3 {
     font-weight: bold; }
   #map-controls .category {
@@ -813,12 +813,12 @@ header {
     background-color: #d0d0d0;
     color: #fff; }
   #map-controls .current.map-control {
-    box-shadow: inset 1em 0 #e66346;
-    color: #e66346; }
+    box-shadow: inset 1em 0 #145887;
+    color: #145887; }
   #map-controls .map-control:last-child {
-    box-shadow: inset 0 -1px #e66346; }
+    box-shadow: inset 0 -1px #145887; }
   #map-controls .current.map-control:last-child {
-    box-shadow: inset 1em -1px #e66346; }
+    box-shadow: inset 1em -1px #145887; }
   #map-controls .more-info {
     text-transform: uppercase; }
   #map-controls .more-info .more,
@@ -840,9 +840,9 @@ header {
     border-width: 0.4em 0.6em 0.4em 0;
     border-color: transparent #fff transparent transparent; }
   #map-controls .current.map-control .more-info .more:after {
-    border-color: transparent transparent transparent #e66346; }
+    border-color: transparent transparent transparent #145887; }
   #map-controls .current.map-control .more-info .less:after {
-    border-color: transparent #e66346 transparent transparent; }
+    border-color: transparent #145887 transparent transparent; }
   #map-controls .map-control:not(.current) rect {
     fill: #fff !important; }
 
@@ -909,11 +909,11 @@ header {
     font-size: 1.25em; }
 
 .building-report thead {
-  background-color: #e66346;
+  background-color: #145887;
   color: #fff; }
 
 .building-report tbody {
-  color: #e66346;
+  color: #145887;
   background-color: #fff; }
 
 .building-report th:first-child, .building-report td:first-child {
@@ -931,7 +931,7 @@ header {
 .building-report label {
   background: #fff;
   border-radius: 1em;
-  color: #e66346;
+  color: #145887;
   cursor: pointer; }
 
 .building-report .building-info div:first-child {
@@ -1007,15 +1007,15 @@ header {
 
 .year-control {
   font-weight: 500;
-  border-bottom-color: rgba(197, 57, 27, 0.7);
+  border-bottom-color: rgba(10, 45, 68, 0.7);
   text-align: center; }
   .year-control input + label {
     cursor: pointer;
-    color: #db401e;
+    color: #0d3b5b;
     opacity: 0.85; }
     .year-control input + label::after {
       opacity: 0.6;
-      background-color: #c5391b; }
+      background-color: #0a2d44; }
   .year-control input:checked + label {
     color: white;
     opacity: 1;
