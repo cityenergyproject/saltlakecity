@@ -53,7 +53,7 @@ define([
   BuildingInfoPresenter.prototype.toPopulatedLabels = function()  {
     return _.map(this.city.get('popup_fields'), function(field) {
       return _.extend({
-        value: this.toBuilding().get(field.field)
+        value: this.toBuilding().get(field.field) || 'N/A'
       }, field);
     }, this);
   };
@@ -122,7 +122,7 @@ define([
         return this;
       }
       cartodb.createLayer(this.leafletMap, {
-        user_name: 'cityenergy-slc',
+        user_name: this.allBuildings.cartoDbUser,
         type: 'cartodb',
         sublayers: [this.toCartoSublayer()]
       }).addTo(this.leafletMap).on('done', this.onCartoLoad, this);
