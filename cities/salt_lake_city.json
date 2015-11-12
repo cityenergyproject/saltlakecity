@@ -70,11 +70,10 @@
             "display_type": "range",
             "section": "Air Pollution Emissions",
             "range_slice_count": 18,
-            "filter_range": {"max" : 500},
+            "filter_range": {"max" : 200},
             "color_range": ["#6BB0A5","#DAC04D","#F77156"],
             "description": "Emission intensity of common air pollutants that result from onsite combustion of fuel (e.g. natural gas) that contribute to air pollution. Includes nitrogen oxides (NOx), volatile organic compounds (VOCs), Sulphur dioxide (SO2), and particulate matter (PM2.5). Expressed as lbs. of local air pollution/square feet.",
-            "unit": "cars",
-            "icon": "car.png"
+            "unit": "cars"
         },
         {
             "title": "GHG Emissions",
