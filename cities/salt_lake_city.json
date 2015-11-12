@@ -19,8 +19,8 @@
         {"field": "energy_star_score", "label": "Energy Star Score: "},
         {"field": "weather_normalized_source_eui_kbtu_ft", "label":"Source EUI (kbtu/ft&sup2;): "},
         {"field": "weather_normalized_site_eui_kbtu_ft", "label":"Site EUI (kbtu/ft&sup2;): "},
-        {"field": "local_air_emissions_lbs_of_local_air_pollution_sqft", "label":"Local Air Emissions (lbs/ft&sup2;): "},
-        {"field": "ghg_emissions_lbs_co2e_sqft", "label":"GHG Emissions (lbs/ft&sup2;): "},
+        {"field": "number_of_equivalent_cars", "label":"Number of equivalent cars: "},
+        {"field": "ghg_emissions_metric_tons_co2e", "label":"GHG Emissions (metric tons CO<sub>2</sub>): "},
         {"field": "primary_property_type___self_selected", "label": "Building Type: "},
         {"field": "year_built", "label": "Year Built: "},
         {"field": "property_floor_area_buildings_and_parking_ft", "label": "Square Feet: "}
@@ -65,26 +65,27 @@
             "unit": "kbtu/ft&sup2;"
         },
         {
-            "title": "Local Air Emissions",
-            "field_name": "local_air_emissions_lbs_of_local_air_pollution_sqft",
-            "display_type": "range",
-            "section": "Air Pollution Emissions",
-            "range_slice_count": 8,
-            "filter_range": {"max" : 0.007},
-            "color_range": ["#6BB0A5","#DAC04D","#F77156"],
-            "description": "Emission intensity of common air pollutants that result from onsite combustion of fuel (e.g. natural gas) that contribute to air pollution. Includes nitrogen oxides (NOx), volatile organic compounds (VOCs), Sulphur dioxide (SO2), and particulate matter (PM2.5). Expressed as lbs. of local air pollution/square feet.",
-            "unit": "lbs/ft&sup2;"
-        },
-        {
-            "title": "GHG Emissions",
-            "field_name": "ghg_emissions_lbs_co2e_sqft",
+            "title": "Number of Equivalent Cars",
+            "field_name": "number_of_equivalent_cars",
             "display_type": "range",
             "section": "Air Pollution Emissions",
             "range_slice_count": 18,
-            "filter_range": {"max" : 25},
+            "filter_range": {"max" : 500},
             "color_range": ["#6BB0A5","#DAC04D","#F77156"],
-            "description": "Greenhouse gas emissions associated with building energy consumption (electricity and natural gas). Expressed as lbs. of CO2e/square feet.",
-            "unit": "kgCO&sup2;/ft&sup2;"
+            "description": "Emission intensity of common air pollutants that result from onsite combustion of fuel (e.g. natural gas) that contribute to air pollution. Includes nitrogen oxides (NOx), volatile organic compounds (VOCs), Sulphur dioxide (SO2), and particulate matter (PM2.5). Expressed as lbs. of local air pollution/square feet.",
+            "unit": "cars",
+            "icon": "car.png"
+        },
+        {
+            "title": "GHG Emissions",
+            "field_name": "ghg_emissions_metric_tons_co2e",
+            "display_type": "range",
+            "section": "Air Pollution Emissions",
+            "range_slice_count": 18,
+            "filter_range": {"max" : 2000},
+            "color_range": ["#6BB0A5","#DAC04D","#F77156"],
+            "description": "Greenhouse gas emissions associated with building energy consumption (electricity and natural gas). Expressed as metric tons of CO<sub>2</sub>.",
+            "unit": "metric tons CO<sub>2</sub>"
         }
     ],
     "years": {
