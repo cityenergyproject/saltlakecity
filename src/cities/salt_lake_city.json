@@ -2,7 +2,8 @@
     "url_name": "salt_lake_city",
     "name": "Salt Lake City",
 
-    "tileSource": "http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+    "backgroundTileSource": "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+    "labelTileSource": "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
     "center": [
         40.760779,
         -111.891047
