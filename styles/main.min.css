@@ -671,6 +671,12 @@ header {
   .map-category-control li {
     margin: 0.25em 1em;
     clear: both; }
+  .map-category-control li.actions {
+    font-size: 0.7em;
+    padding-bottom: 0.5em;
+    text-transform: uppercase; }
+    .map-category-control li.actions a {
+      color: #145887; }
   .map-category-control .content {
     padding-left: 1.5em;
     position: relative; }
